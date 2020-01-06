@@ -1,3 +1,2 @@
 binary
 driver
-ezselenium
