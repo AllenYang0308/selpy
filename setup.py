@@ -11,11 +11,8 @@ setup(
     maintainer='IDV team',
     description='',
     py_modules=['ezselenium'],
-    packages=['binary', 'driver'],
-    package_data={
-        'binary': ['*.*', 'firefox/*'],
-        'driver': ['*.*']
-    },
+    packages=find_packages(),
+    package_data={'': ['*.*', 'firefox/*', 'driver/*']},
     include_package_data=True,
     zip_safe=False,
     platforms='any',
