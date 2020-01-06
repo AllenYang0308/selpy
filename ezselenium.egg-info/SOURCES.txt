@@ -2,12 +2,9 @@ README.md
 setup.py
 binary/__init__.py
 driver/__init__.py
-ezselenium/__init__.py
 ezselenium.egg-info/PKG-INFO
 ezselenium.egg-info/SOURCES.txt
 ezselenium.egg-info/dependency_links.txt
 ezselenium.egg-info/not-zip-safe
 ezselenium.egg-info/requires.txt
 ezselenium.egg-info/top_level.txt
-ezselenium/utils/__init__.py
-ezselenium/utils/browser.py

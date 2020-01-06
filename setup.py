@@ -1,5 +1,5 @@
 from __future__ import print_function
-from setuptools import setup, find_packages
+from setuptools import setup
 import sys
 
 setup(
@@ -10,9 +10,11 @@ setup(
     author_email='allen.yang@ezprice.com.tw',
     maintainer='IDV team',
     description='',
-    py_modules=['ezselenium'],
-    packages=find_packages(),
-    package_data={'': ['*.*', 'firefox/*', 'driver/*']},
+    packages=['driver', 'binary'],
+    package_data={
+        'binary': ['*.*', 'firefox/*'],
+        'driver': ['driver/geckodriver']
+    },
     include_package_data=True,
     zip_safe=False,
     platforms='any',
