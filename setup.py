@@ -27,9 +27,7 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     install_requires=[
-            'selenium>=3.141.0',
-            'pandas>=0.20.0',
-            'numpy>=1.14.0'
+            'selenium>=3.141.0'
     ],
     zip_safe=True,
     package_data={
