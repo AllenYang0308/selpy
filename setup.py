@@ -10,6 +10,7 @@ setup(
     author_email='allen.yang@ezprice.com.tw',
     maintainer='IDV team',
     description='',
+    py_modules=['ezselenium'],
     packages=['binary', 'driver'],
     package_data={
         'binary': ['*.*', 'firefox/*'],
