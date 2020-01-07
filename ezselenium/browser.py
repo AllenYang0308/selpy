@@ -1,4 +1,4 @@
-import glob
+import os
 from selenium.webdriver.firefox import webdriver
 from selenium.webdriver.firefox.options import Options
 
@@ -8,15 +8,9 @@ FIREFOX = {
     "acceptInsecureCerts": True,
 }
 
-import glob
-
-def test():
-    for name in glob.glob('firefox/*'):
-        print( name )
-
 def init_web_driver():
 
     options = Options()
     options.add_argument("-headless")
 
-    return webdriver.WebDriver(executable_path="firefox/geckodriver", firefox_binary="firefox/firefox", log_path=None, service_log_path=None, capabilities=FIREFOX, firefox_options=options)
+    return webdriver.WebDriver(executable_path="/workspace/src/ezselenium/ezselenium/firefox/geckodriver", firefox_binary="/workspace/src/ezselenium/ezselenium/firefox/firefox", log_path=None, service_log_path=None, capabilities=FIREFOX, firefox_options=options)
