@@ -1,6 +1,5 @@
 from __future__ import print_function
 from setuptools import setup
-import sys
 
 setup(
     name='ezselenium',
@@ -10,9 +9,10 @@ setup(
     author_email='allen.yang@ezprice.com.tw',
     maintainer='IDV team',
     description='',
+    scripts=['ezselenium/extract.py'],
     packages=['ezselenium'],
     package_data={
-        'ezselenium': ['*.*', 'firefox/*'],
+        'ezselenium': ['*.*'],
     },
     include_package_data=True,
     zip_safe=False,
