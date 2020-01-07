@@ -10,9 +10,9 @@ setup(
     author_email='allen.yang@ezprice.com.tw',
     maintainer='IDV team',
     description='',
-    packages=['binary'],
+    packages=['ezselenium'],
     package_data={
-        'binary': ['*.*', 'firefox/*'],
+        'ezselenium': ['*.*', 'binary/*'],
     },
     include_package_data=True,
     zip_safe=False,
