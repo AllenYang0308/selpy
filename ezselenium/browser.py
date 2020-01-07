@@ -1,3 +1,4 @@
+import glob
 from selenium.webdriver.firefox import webdriver
 from selenium.webdriver.firefox.options import Options
 
@@ -6,6 +7,12 @@ FIREFOX = {
     "marionette": True,
     "acceptInsecureCerts": True,
 }
+
+import glob
+
+def test():
+    for name in glob.glob('firefox/*'):
+        print( name )
 
 def init_web_driver():
 
