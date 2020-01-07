@@ -1,7 +1,6 @@
 README.md
 setup.py
 binary/__init__.py
-driver/__init__.py
 ezselenium.egg-info/PKG-INFO
 ezselenium.egg-info/SOURCES.txt
 ezselenium.egg-info/dependency_links.txt

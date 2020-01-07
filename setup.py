@@ -10,10 +10,9 @@ setup(
     author_email='allen.yang@ezprice.com.tw',
     maintainer='IDV team',
     description='',
-    packages=['driver', 'binary'],
+    packages=['binary'],
     package_data={
         'binary': ['*.*', 'firefox/*'],
-        'driver': ['driver/geckodriver']
     },
     include_package_data=True,
     zip_safe=False,
