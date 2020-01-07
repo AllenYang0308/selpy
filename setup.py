@@ -18,6 +18,6 @@ setup(
     zip_safe=False,
     platforms='any',
     install_requires=[
-        'selenium>=3.141.0'
+        'selenium'
     ],
 )
