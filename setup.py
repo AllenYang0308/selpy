@@ -3,7 +3,7 @@ from setuptools import setup
 import sys
 
 setup(
-    name='selpy',
+    name='ezselenium',
     version='0.1.0',
     license='BSD',
     author='Allen Yang',
