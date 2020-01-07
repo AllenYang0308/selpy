@@ -12,7 +12,7 @@ setup(
     description='',
     packages=['ezselenium'],
     package_data={
-        'ezselenium': ['*.*', 'binary/*'],
+        'ezselenium': ['*.*', 'utils/binary/*'],
     },
     include_package_data=True,
     zip_safe=False,
